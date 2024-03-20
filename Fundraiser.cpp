@@ -10,21 +10,23 @@ using namespace std;
 int main()
     {
 
-    // String variable first and last name
+    // String variable first and last name (for identifying users name)
         string name;
 
-    // Variable declarations
+    /* Variable declarations (variabls for the sum of weekly and overall pages 
+    and money raised by the user */
+
         double week1money, week2money, raised_moneysum, week1money_avg, week2money_avg;
         double pagesum, week1page, week2page, week1page_avg, week2page_avg;
         double raised_money = 0.54;
 
-    // Daily average variables
+    // Daily average variables 
         double weeklypage_avg2, weeklypage_avg3, weeklypage_avg4, weeklypage_avg5, weeklypage_avg6;
         double weeklypage_avg9, weeklypage_avg10,weeklypage_avg11, weeklypage_avg12, weeklypage_avg13;
         double weeklymoney_avg2, weeklymoney_avg3, weeklymoney_avg4, weeklymoney_avg5, weeklymoney_avg6;
         double weeklymoney_avg9, weeklymoney_avg10, weeklymoney_avg11, weeklymoney_avg12, weeklymoney_avg13;
 
-    // Input variables for individual days
+    // Input variables for individual days (what the user will input when prompted)
         double page1, page2, page3, page4, page5, page6, page7;
         double page8, page9, page10, page11, page12, page13, page14;
         
@@ -34,7 +36,7 @@ int main()
     // Variable calculations for money raised total
         raised_moneysum = week1money + week2money;
 
-    // Intro Statements
+    // Intro Statements (asks for the users name)
         cout << "Thank you for participating in your schools read-a-thon!  \n";
         cout << "To begin please enter your name:  \n";
         getline (cin >> ws, name);
@@ -43,7 +45,7 @@ int main()
     // Skipping three lines
         cout << "\n\n\n";
 
-    // User Inputting Data (Day 1)
+    // User Inputting Data (Day 1) Done so from day 1 - 14 with weekly breaks in the code
         cout << "How many pages did you read on your 1st day?  \n";
         cin >> page1;
         cout << "You have read: " << page1 << " pages  \n";
@@ -189,7 +191,7 @@ int main()
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg5 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg5 << "\n";    
 
-    // Daily Average (Day 6)
+    // Daily Average (Day 13)
         weeklypage_avg13 = (page8 + page9 + page10 + page11 + page12 + page13) / 6;
         weeklymoney_avg13 = (raised_money * page8) + (raised_money * page9) + (raised_money * page10) + (raised_money * page11) + (raised_money * page12) + (raised_money * page13) / 6;
 
