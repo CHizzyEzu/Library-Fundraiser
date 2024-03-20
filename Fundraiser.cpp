@@ -51,63 +51,68 @@ int main()
         cout << "You have read: " << page1 << " pages  \n";
         cout << "You have raised:  " << fixed << setprecision(2) << raised_money * page1 << "$  \n"; 
 
-    // Daily Average (Day 2)
-        weeklypage_avg2 = (page1 + page2) / 2;
-        weeklymoney_avg2 = raised_money * (page1 + page2) / 2;
-
     // (Day 2)
         cout << "How many pages did you read on your 2nd day?  \n";
         cin >> page2;
         cout << "You have read: " << page2 << " pages  \n";
         cout << "You have raised:  " << fixed << setprecision(2) << raised_money * page2 << "$  \n";
+
+    // Daily Average (Day 2)
+        weeklypage_avg2 = (page1 + page2) / 2;
+        weeklymoney_avg2 = raised_money * (page1 + page2) / 2;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg2 << "\n";
         cout << "Your current average of money raised is, "<< fixed << setprecision(2) << weeklymoney_avg2 << "$\n";
-
-    // Daily Average (Day 3)
-        weeklypage_avg3 = (page1 + page2 + page3) / 3;
-        weeklymoney_avg3 = raised_money * (page1 + page2 + page3) / 3;
 
     // (Day 3)
         cout << "How many pages did you read on your 3rd day?  \n";
         cin >> page3;
         cout << "You have read: " << page3 << " pages  \n";
         cout << "You have raised:  " << fixed << setprecision(2) << raised_money * page3 << "$  \n";
+
+    // Daily Average (Day 3)
+        weeklypage_avg3 = (page1 + page2 + page3) / 3;
+        weeklymoney_avg3 = raised_money * (page1 + page2 + page3) / 3;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg3 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg3 << "$\n";
-
-    //Daily Average (Day 4)
-        weeklypage_avg4 = (page1 + page2 + page3 + page4) / 4;
-        weeklymoney_avg4 = raised_money * (page1 + page2 + page3 + page4) / 4;
 
     // (Day 4)
         cout << "How many pages did you read on your 4th day?  \n";
         cin >> page4;
         cout << "You have read: " << page4 << " pages  \n";
         cout << "You have raised:  " << fixed << setprecision(2) << raised_money * page4 << "$  \n";
+
+    // Daily Average (Day 4)
+        weeklypage_avg4 = (page1 + page2 + page3 + page4) / 4;
+        weeklymoney_avg4 = raised_money * (page1 + page2 + page3 + page4) / 4;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg4 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg4 << "\n";
-
-    //Daily Average (Day 5)
-        weeklypage_avg5 = (page1 + page2 + page3 + page4 + page5) / 5;
-        weeklymoney_avg5 = raised_money * (page1 + page2 + page3 + page4 + page5) / 5;
-
+    
     // (Day 5)
         cout << "How many pages did you read on your 5th day?  \n";
         cin >> page5;
         cout << "You have read: " << page5 << " pages  \n";
         cout << "You have raised: " << fixed << setprecision(2) << raised_money * page5 << "$  \n";
+
+    // Daily Average (Day 5)
+        weeklypage_avg5 = (page1 + page2 + page3 + page4 + page5) / 5;
+        weeklymoney_avg5 = raised_money * (page1 + page2 + page3 + page4 + page5) / 5;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg5 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg5 << "\n";
-
-    // Daily Average (Day 6)
-        weeklypage_avg6 = (page1 + page2 + page3 + page4 + page5 + page6) / 6;
-        weeklymoney_avg6 = raised_money * (page1 + page2 + page3 + page4 + page5 + page6) / 6;
 
     // (Day 6)
         cout << "How many pages did you read on your 6th day?  \n";
         cin >> page6;
         cout << "You have read: " << page6 << " pages  \n";
         cout << "You have raised:  " << fixed << setprecision(2) << raised_money * page6 << "$  \n";
+
+     // Daily Average (Day 6)
+        weeklypage_avg6 = (page1 + page2 + page3 + page4 + page5 + page6) / 6;
+        weeklymoney_avg6 = raised_money * (page1 + page2 + page3 + page4 + page5 + page6) / 6;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg6 << "\n";
         cout << "Your current average of money raised is, " << fixed <<setprecision(2) << weeklymoney_avg6 << "\n";
 
@@ -142,61 +147,69 @@ int main()
         cin >> page8;
         cout << "You have read: " << page8 << " pages  \n";    
         cout << "You have raised: " << fixed << setprecision(2) << raised_money * page8 << "$  \n";
-    
-    // Daily Average (Day 9)
-        weeklypage_avg9 = (page8 + page9) / 2;
-        weeklymoney_avg9 = raised_money * (page8 + page9) / 2;
 
     // (Day 9)
         cout << "How many pages did you read on your 9th day?  \n";
         cin >> page9;
         cout << "You have read: " << page9 << " pages  \n";    
         cout << "You have raised: " << fixed << setprecision(2) << raised_money * page9 << "$  \n";
+
+    // Daily Average (Day 9)
+        weeklypage_avg9 = (page8 + page9) / 2;
+        weeklymoney_avg9 = raised_money * (page8 + page9) / 2;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg2 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg2 << "\n";
-
-    // Daily Average (Day 10)
-        weeklypage_avg10 = (page8 + page9 + page10) / 3;
-        weeklymoney_avg10 = raised_money * (page8 + page9 + page10) / 3;
 
     // (Day 10)
         cout << "How many pages did you read on your 10th day?  \n";
         cin >> page10;
         cout << "You have read: " << page10 << " pages  \n";    
         cout << "You have raised: "  << fixed << setprecision(2) << raised_money * page10 << "$  \n";
+
+    // Daily Average (Day 10)
+        weeklypage_avg10 = (page8 + page9 + page10) / 3;
+        weeklymoney_avg10 = raised_money * (page8 + page9 + page10) / 3;
+
         cout << "Your current average of read pages is, " << weeklypage_avg3 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg3 << "\n";
     
-    //Daily Average (Day 11)
-        weeklypage_avg11 = (page8 + page9 + page10 + page11) / 4;
-        weeklymoney_avg11 = raised_money * (page8 + page9 + page10 + page11) / 4;
     // (Day 11)
         cout << "How many pages did you read on your 11th day?  \n";
         cin >> page11;
         cout << "You have read: " << page11 << " pages  \n";    
         cout << "You have raised: " << fixed << setprecision(2) << raised_money * page11 << "$  \n";
+
+    //Daily Average (Day 11)
+        weeklypage_avg11 = (page8 + page9 + page10 + page11) / 4;
+        weeklymoney_avg11 = raised_money * (page8 + page9 + page10 + page11) / 4;
+
         cout << "Your current average of read pages is, " << fixed  << weeklypage_avg4 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg4 << "\n";
 
-    //Daily Average (Day 12)
-        weeklypage_avg12 = (page8 + page9 + page10 + page11 + page12) / 5;
-        weeklymoney_avg12 = raised_money * (page8 + page9 + page10 + page11 + page12) / 5;
     // (Day 12)
         cout << "How many pages did you read on your 12th day?  \n";
         cin >> page12;
         cout << "You have read: " << page12 << " pages  \n";    
         cout << "You have raised: " << fixed << setprecision(2) << raised_money * page12 << "$  \n";
+
+     //Daily Average (Day 12)
+        weeklypage_avg12 = (page8 + page9 + page10 + page11 + page12) / 5;
+        weeklymoney_avg12 = raised_money * (page8 + page9 + page10 + page11 + page12) / 5;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg5 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg5 << "\n";    
 
-    // Daily Average (Day 13)
-        weeklypage_avg13 = (page8 + page9 + page10 + page11 + page12 + page13) / 6;
-        weeklymoney_avg13 = raised_money * (page8 + page9 + page10 + page11 + page12 + page13) / 6;
     // (Day 13)
         cout << "How many pages did you read on your 13th day?  \n";
         cin >> page13;
         cout << "You have read: " << page13 << " pages  \n";    
         cout << "You have raised: " << fixed << setprecision(2) << raised_money * page13 << "$  \n";
+
+    // Daily Average (Day 13)
+        weeklypage_avg13 = (page8 + page9 + page10 + page11 + page12 + page13) / 6;
+        weeklymoney_avg13 = raised_money * (page8 + page9 + page10 + page11 + page12 + page13) / 6;
+
         cout << "Your current average of read pages is, " << fixed << weeklypage_avg6 << "\n";
         cout << "Your current average of money raised is, " << fixed << setprecision(2) << weeklymoney_avg6 << "\n";
 
@@ -219,7 +232,7 @@ int main()
 
     // Week 2 result
         cout << "You have read: " << week2page << " pages, this week.  \n";
-        cout << "You have earned: " << fixed << setprecision(2) << week2money << " This week!  \n";
+        cout << "You have earned: " << fixed << setprecision(2) << week2money << "$ This week!  \n";
         cout << "The average amount of pages you read this week is, " << fixed << setprecision(2) << week2page_avg << " pages \n";
         cout << "The average amount of money you raised this week is, " << fixed << setprecision(2) << week2money_avg << "$ \n";
 
