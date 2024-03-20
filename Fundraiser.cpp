@@ -7,7 +7,7 @@ based upon the amount of pages read */
 #include <iomanip>
 using namespace std;
 
-int main()
+int Fundraiser()
     {
 
     // String variable first and last name
